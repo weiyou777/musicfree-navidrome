@@ -1,0 +1,18 @@
+{
+  "name": "musicfree-navidrome-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MusicFree 插件：连接 Navidrome / Subsonic 自建音乐服务器",
+  "main": "navidrome.js",
+  "scripts": {
+    "check": "node --check navidrome.js",
+    "test": "node test-plugin.js"
+  },
+  "devDependencies": {
+    "axios": "^1.7.0",
+    "crypto-js": "^4.2.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
